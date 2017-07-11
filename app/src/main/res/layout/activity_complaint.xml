@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:background="@color/colorPrimary">
+
+      <!--  <net.steamcrafted.materialiconlib.MaterialIconView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            app:materialIcon="send"
+            app:materialIconColor="@android:color/white"
+            app:materialIconSize="40dp"
+            android:scaleType="center"
+            android:background="@drawable/normal_selector"
+            android:id="@+id/btn_send"
+            />-->
+
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_send_white_24dp"
+            android:id="@+id/btn_send"/>
+
+
+
+        <EditText
+            android:id="@+id/et_message"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_toLeftOf="@id/btn_send"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white"
+            android:maxLines="3"
+            android:paddingLeft="5dp"
+            android:hint="Type your message here.."
+            />
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/topView"></View>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_chat"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/topView"
+        android:layout_above="@id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

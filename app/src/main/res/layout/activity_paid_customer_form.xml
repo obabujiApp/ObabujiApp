@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    android:fitsSystemWindows="true">
+
+        <Button
+            android:id="@+id/btn_complaint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complaint / Query"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"/>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:id="@+id/topView">
+
+      </View>
+
+    <LinearLayout
+        android:layout_above="@id/btn_complaint"
+        android:layout_below="@id/topView"
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/form_layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingTop="15dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColorHint="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_person_outline_white_24dp"
+                android:hint="@string/name"
+                app:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_mail_outline_white_24dp"
+                android:hint="@string/email_id"
+                app:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColorHint="@color/white"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_domain_white_24dp"
+                android:hint="@string/company_name"
+                app:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColorHint="@color/white"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/ic_smartphone_white_24dp"
+                android:hint="@string/mobile"
+                app:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/btn_send_otp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="@string/send_otp"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/et_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColorHint="@color/white"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_vpn_key_white_24dp"
+                android:hint="@string/enter_otp"
+                app:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                />
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/submit"
+                android:textSize="16sp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:textSize="17sp"
+            android:visibility="gone"
+            android:text="Thanks for applying, Once we will verify. You will be able to use further!"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

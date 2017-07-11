@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.obabuji">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/LoginTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/LoginTheme"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".SignupActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".NotificationActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MyServiceActivity" />
+        <activity
+            android:name=".ServiceRequestActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".MyProfileActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".FeedbackAndSuggestionActivity"
+            android:theme="@style/FeedbackTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".DigitalMarketingActivity" />
+        <activity
+            android:name=".PaidCustomerFormActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+
+        <service android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KotlinDemoActivity" />
+        <activity android:name=".PayPerClickActivity" />
+        <activity android:name=".SocialMediaMarketingActivity" />
+        <activity android:name=".YoutubeAdvertisingActivity" />
+        <activity android:name=".MobileMarketingActivity" />
+        <activity android:name=".SeoActivity" />
+        <activity android:name=".ContentMarketingActivity" />
+        <activity android:name=".EmailMarketingActivity" />
+        <activity android:name=".CrmActivity" />
+        <activity android:name=".WebDesignActivity" />
+
+        <activity android:name=".ComplaintActivity" android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+    </application>
+
+</manifest>

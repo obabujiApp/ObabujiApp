@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Obabuji App</string>
+    <string name="name">Name</string>
+    <string name="email_id">Email</string>
+    <string name="email">E-mail address</string>
+    <string name="mobile">Mobile </string>
+    <string name="email_mobile">Email/Mobile</string>
+    <string name="signup">New here? Sign Up</string>
+    <string name="forgotPassword">Forgot password?</string>
+    <string name="login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="password">Password</string>
+    <string name="new_password">New password</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="or">OR</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="btn_resetPassword">Reset Password</string>
+    <string name="reset">Reset</string>
+    <string name="company_name">Company/Organization Name</string>
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="profile">Profile</string>
+    <string name="digital_marketing">Digital Marketing\n</string>
+    <string name="pay_per_click_marketing">Pay/Click Marketing</string>
+    <string name="social_media_marketing">Social Media\nMarketing</string>
+    <string name="youtube_advertising">YouTube Advertising</string>
+    <string name="mobile_marketing">Mobile Marketing</string>
+    <string name="seo">SEO\n</string>
+    <string name="content_marketing">Content Marketing</string>
+    <string name="email_marketing">Email Marketing\n</string>
+    <string name="crm">CRM</string>
+    <string name="web_design_development">Web Design\n&amp; Development</string>
+    <string name="title_activity_main">Home</string>
+    <string name="my_service">My Services</string>
+    <string name="service_detail">Service Detail</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="request_service">Request Service</string>
+    <string name="paid_customer">Paid Customer </string>
+    <string name="my_profile">My Profile</string>
+    <string name="notification">Notification</string>
+    <string name="feedback_and_suggestion">Feedback</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="change_password">Set Password</string>
+    <string name="logout">Logout</string>
+    <string name="logout_message">Are you sure do you want logout?</string>
+    <string name="no_internet">Please check your Internet connection and try again.</string>
+    <string name="facebook_app_id">318199885289235</string>
+    <string name="fb_login_protocol_scheme">fb318199885289235</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"http://innovativeadssolution.com\",\n  }\n}]</string>
+
+
+</resources>

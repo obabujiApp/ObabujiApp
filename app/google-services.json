@@ -1,0 +1,65 @@
+{
+  "project_info": {
+    "project_number": "1035094660566",
+    "firebase_url": "https://obabuji-app.firebaseio.com",
+    "project_id": "obabuji-app",
+    "storage_bucket": "obabuji-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035094660566:android:e926367de77c6bb6",
+        "android_client_info": {
+          "package_name": "com.obabuji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035094660566-us0v2dpclgja6kdmmqcj3296svv9h0sr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1035094660566-t422pngms50fi4uj8ufi3rl450pf0jfi.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1035094660566-oe5kg22ndbvmbqqgp26j3nnqbh9m4bta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.obabuji",
+            "certificate_hash": "ae35e8ed30a97e020c9b95cb5062ab1de0bf86fa"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT80Tf8aFQYcQse4-a_Pqxkmy8gZWehJM"
+        },
+        {
+          "current_key": "AIzaSyA7QaO3Gg61m4ZWd4JBLbytZ0r0HIyYATo"
+        },
+        {
+          "current_key": "AIzaSyA_sKakOTRmdVbspdFnp3TTTXLVl8T8bg4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035094660566-us0v2dpclgja6kdmmqcj3296svv9h0sr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
